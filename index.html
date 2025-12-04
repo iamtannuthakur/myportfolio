@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/9bfd7b5662.js" crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--navbar section-->
+  <header class="header">
+    <a href="#" class="logo">Tannu</a>
+    <i class="fa fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+              <a class="active" href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#resume">Resume</a>
+              <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+  <!--navbar sec-->
+
+
+  <!--Banner-->
+  <section id="home" class="home">
+      <div class="home-content">
+        <h2>Hello ! </h2>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm <br>Tannu Thakur, a passionate computer science graduate from Delhi University, eager to create
+          innovative solutions and grow in the tech world.</p>
+        <div class="mt-5">
+          <a class="main-btn" href="#get-cv-btn" onclick="scrollToResume()">Download Resume</a>
+          <a class="main-btn" href="https://github.com/iamtannuthakur" target="_blank">Github</a>
+
+        </div>
+        <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/rohinithakur_02?t=4X-gC5PA0lPMOGRW38vehw&s=09" target="_blank"><i
+            class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/tannu-thakur" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="# " target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/tannuthakur_02?igsh=MW5oaGF2cjFodmo4cA==" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+            </div>
+      </div>
+          <div class="myphoto">
+            <img src="images/mypic.jpg" alt="img-fluid">
+          </div>
+    
+  </section>
+
+  <!---- about ---->
+
+  <section id="about" class="about">
+        <div class="about-col-1">
+          <img src="images/mypic.jpg" alt="Tannu's Photo">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p class="me-info">Hi, I’m Tannu Thakur — a passionate and creative individual who loves turning ideas into
+            reality. I’m
+            always eager to learn new things, explore creative paths, and keep improving myself with every step I take.
+
+            With a background in Computer Science, I’ve developed strong analytical thinking and technical skills. I
+            enjoy blending logic with creativity — whether it’s designing something beautiful, solving a problem, or
+            learning a new tool that makes work smarter.
+
+            I believe in simplicity, honesty, and consistency. My goal is to build a career that not only challenges me
+            intellectually but also inspires me emotionally.
+
+            When I’m not working, you’ll find me listening to music, singing, or simply spending time exploring nature
+            and new ideas</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>Web development</li>
+              <li>Python programming</li>
+              <li>Machine Learning</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>June 2023- July 2023</span><br>Python Internship at Upskill Campus</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021-2024</span><br>Graduation</li>
+              <li><span>2019-2021</span><br>Intermediate School</li>
+              <li><span>2018-2019</span><br>High School</li>
+            </ul>
+          </div>
+        </div>
+
+  </section>
+
+  <!-----Project----->
+
+  <section id="projects" class="projects-section">
+
+      <h1> My Projects</h1>
+      <div class="projects-container">
+        <div class="work">
+          <a href="https://iamtannuthakur.github.io/littlebargains.github.io/" target="_blank"><img
+              src="images/work1.jpg" alt=""></a>
+          <div class="layer">
+            <h2>Little Bargains App</h2>
+            <p>Little Bargains is a college-based buy and sell platform.This project allows students to buy, sell, or
+              exchange used books, gadgets and other items within campus.</p>
+            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+
+        </div>
+        <div class="work">
+          <a href="https://iamtannuthakur.github.io/petform.github.io/" target="_blank"><img src="images/work2.jpg"
+              alt=""></a>
+
+          <div class="layer">
+            <h2>Pet Form</h2>
+            <p>This project is a web-based application designed to collect, store, and display information about
+              pets.The user can add pet details through a well-designed form.</p>
+            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <a href=" https://iamtannuthakur.github.io/Quiz/" target="_blank"><img src="images/work3.jpg" alt=""></a>
+          <div class="layer">
+            <h2>Quiz Game</h2>
+            <p>This project is a fun and interactive Quiz Game built using Python. It provides a simple graphical
+              interface where users can answer MCQ and see their score at the end.</p>
+            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+
+  </section>
+
+
+  <section id="resume" class="resume-section">
+    <div class="center-btn">
+      <a href="Tannu_20251012_181933_0000.pdf" download="Resume.pdf" class="btn btn-large"><i
+          class="fas fa-download"></i> Download Resume</a> <br>
+      <a class="btn btn-large" href="Tannu_20251012_181933_0000.pdf" target="_blank"><i class="fa fa-eye"
+          aria-hidden="true"></i> View Resume</a>
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+    <div class="container contact-section">
+      <div class="contact-info">
+
+        <div class="contact-info-box icon1">
+          <i class="fa-solid fa-location-dot contact-icon"></i>
+          <p>H-No.384/315 D-block, Dabua Colony,<br>Faridabad, Haryana, 121001 </p>
+        </div>
+        <div class="contact-info-box">
+          <i class="fa-solid fa-phone contact-icon"></i>
+
+          <p>+91 8586069785</p>
+        </div>
+        <div class="contact-info-box">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <p>tannthakur4982@gmail.com</p>
+        </div>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/rohinithakur_02?t=4X-gC5PA0lPMOGRW38vehw&s=09" target="_blank"><i
+              class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/tannu-thakur" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="# " target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/tannuthakur_02?igsh=MW5oaGF2cjFodmo4cA==" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form class="contactFormBox" name="submit-to-google-sheet">
+          <h2>Contact Me</h2>
+          <div class="input-box">
+            <input type="text" name="Name" id="name" required autocomplete="off">
+            <span>Your Name</span>
+          </div>
+          <div class="input-box">
+            <input type="email" name="Email" id="email" required>
+            <span>Your Email</span>
+          </div>
+          <div class="input-box">
+            <textarea type="text" name="Message" id="message" required ></textarea>
+            <span>Message</span>
+          </div>
+          <div class="contact-btn">
+            <input class="input-msg" type="submit" id="button" value="submit">
+          </div>
+        </form>
+        <div id="popup">
+  <div class="popup-content">
+    <h2>Message Sent Successfully!</h2>
+    <button id="closePopup">OK</button>
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+
+  </section>
+  <div class="footer">
+    <p> &copy; Tannu</p>
+  </div>
+
+
+
+
+  <!--javascript-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script>
+      function scrollToResume() {
+      document.getElementById('resume').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+
+    }
+    </script>
+
+
+
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyt77IoxPrkBwiGbOPDC177sUDC-WfNgrGesz0KH28xb5BWirhAmjqs9Z1VuwqtYZis/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('ms')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
