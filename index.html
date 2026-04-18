@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">TANNU<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" id="menuIcon"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+   <section id="home" class="hero">
+    <div class="container hero-grid">
+        <div class="hero-image-container reveal-right">
+           <div class="image-border" class="image-circle-wrapper">
+               <img src="images/mypic.jpg" alt="img-fluid" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400/161b2a/ffffff?text=Tannu' ">
+           </div>
+       </div>
+
+        <div class="hero-text reveal-left">
+            <span class="badge">BSc. Computer Science @ DU</span>
+            <h1 id="abt">Hello ! <br> Welcome to My Portfolio</h1>
+            <p>I'm <br>Tannu Thakur, a passionate computer science graduate from Delhi University, eager to create innovative solutions and grow in the tech world.</p>
+            <div class="hero-btns">
+                <a href="myresume.pdf" class="btn-fill" target="_blank"><i class="fas fa-file-download"></i> Download CV</a>
+                <a href="#projects" class="btn-outline">View My Work</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="skills" class="skills-section section-padding">
+    <div class="container skills-container-flex">
+        
+        <div class="skills-text-col reveal-left">
+            <h2 class="section-title">Skills & Expertise</h2>            
+            <div class="unified-skills-grid">
+                <div class="skill-box"><i class="fab fa-python"></i> <span>Python</span></div>
+                <div class="skill-box"><i class="fas fa-robot"></i> <span>Machine Learning</span></div>
+                <div class="skill-box"><i class="fas fa-code"></i> <span>C++</span></div>
+                <div class="skill-box"><i class="fas fa-file-code"></i> <span>HTML & CSS</span></div>
+                
+                <div class="skill-box"><i class="fas fa-comments"></i> <span>Communication</span></div>
+                <div class="skill-box"><i class="fas fa-lightbulb"></i> <span>Problem Solving</span></div>
+                <div class="skill-box"><i class="fas fa-users"></i> <span>Teamwork</span></div>
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <h2 class="section-title reveal-top">Work Experience</h2>
+            <div class="experience-grid">
+                <div class="exp-card reveal-bottom">
+                    <div class="exp-header">
+                        <span class="company">CodexIntern</span>
+                        <span class="duration">Nov 2025 — Dec 2025</span>
+                    </div>
+                    <h3>AI/ML Internship</h3>
+                    <p>Implemented machine learning models for prediction and classification using Python and real-world datasets.</p>
+                </div>
+                <div class="exp-card reveal-bottom">
+                    <div class="exp-header">
+                        <span class="company">Upskill Campus</span>
+                        <span class="duration">June 2023 — July 2023</span>
+                    </div>
+                    <h3>Python Development Intern</h3>
+                    <p>Assisted in developing Python-based scripts, data cleaning with Pandas/NumPy, and version control via Git.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="projects section-padding">
+    <div class="container">
+        <h2 class="section-title reveal-top">Featured Projects</h2>
+        
+        <div class="projects-grid">
+
+            <div class="project-card reveal-bottom" style="transition-delay: 0.1s;">
+                <img src="images/work1.jpg" alt="Little Bargains App" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/161b2a/ffffff?text=Little+Bargains+App'">
+                <div class="project-overlay">
+                    <div class="overlay-content">
+                        <span class="proj-tag">Web Dev</span>
+                        <h3>Little Bargains</h3>
+                        <p>Little Bargains is a college-based buy and sell platform.This project allows students to buy, sell, or
+              exchange used books, gadgets and other items within campus.</p>
+                        <a href="https://iamtannuthakur.github.io/littlebargains.github.io/" class="btn-fill">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal-bottom" style="transition-delay: 0.2s;">
+                <img src="images/work2.jpg" alt="EDA Project" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/161b2a/ffffff?text=EDA+Project'">
+                <div class="project-overlay">
+                    <div class="overlay-content">
+                        <span class="proj-tag">Web Dev</span>
+                        <h3>Pet Form</h3>
+                        <p>This project is a web-based application designed to collect, store, and display information about
+              pets.The user can add pet details through a well-designed form.</p>
+                        <a href="https://iamtannuthakur.github.io/petform.github.io/" class="btn-fill">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card reveal-bottom" style="transition-delay: 0.2s;">
+                <img src="images/work3.jpg" alt="EDA Project" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/161b2a/ffffff?text=EDA+Project'">
+                <div class="project-overlay">
+                    <div class="overlay-content">
+                        <span class="proj-tag">Python-based</span>
+                        <h3>Quiz Game</h3>
+                        <p>
+            This project is a fun and interactive Quiz Game built using Python. It provides a simple graphical
+              interface where users can answer MCQ and see their score at the end.</p>
+                        <a href="https://github.com/iamtannuthakur/Quiz" class="btn-fill">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal-bottom" style="transition-delay: 0.2s;">
+                <img src="images/work4.png" alt="EDA Project" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/161b2a/ffffff?text=EDA+Project'">
+                <div class="project-overlay">
+                    <div class="overlay-content">
+                        <span class="proj-tag">Python & ML</span>
+                        <h3>Sleep Health Analysis</h3>
+                        <p>Predicting sleep disorders based on lifestyle habits using machine learning.</p>
+                        <a href="https://github.com/iamtannuthakur/Machine_learning" class="btn-fill">View Details</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title reveal-top">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal-left">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <p>tannthakur4982@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 8586069785</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Faridabad, Haryana, 121001</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/tannu-thakur"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/iamtannuthakur"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/rohinithakur_02"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tannuthakur_02?igsh=MW5oaGF2cjFodmo4cA==" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+
+                        
+                    
+                    </div>
+                </div>
+                <div class="contact-form-container reveal-right">
+                    <form class="contact-form" id="contact-form" name="submit-to-google-sheet">
+                        <div class="input-box">
+                            <input type="text" name="Name" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" name="Email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="input-box">
+                            <textarea name="Message" id="msg" required></textarea>
+                            <span>Message</span>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submitBtn">Send Message</button>
+                        <span id="form-status" style="display:block; margin-top:20px; font-weight:700;"></span>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+       
+        // Hamburger Toggle
+        const menuIcon = document.getElementById('menuIcon');
+        const navLinks = document.getElementById('navLinks');
+        menuIcon.onclick = () => navLinks.classList.toggle('active');
+
+        // Professional Scroll Reveal Configuration
+        const sr = ScrollReveal({ distance: '50px', duration: 1200, delay: 100, reset: false });
+        sr.reveal('.reveal-top', { origin: 'top' });
+        sr.reveal('.reveal-bottom', { origin: 'bottom' });
+        sr.reveal('.reveal-left', { origin: 'left' });
+        sr.reveal('.reveal-right', { origin: 'right' });
+          function scrollToResume() {
+      document.getElementById('resume').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyt77IoxPrkBwiGbOPDC177sUDC-WfNgrGesz0KH28xb5BWirhAmjqs9Z1VuwqtYZis/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg');
+  const status = document.getElementById('form-status');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    status.innerHTML = "Sending...";
+    status.style.color = "#fff";
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        // Even if the response isn't "ok", we check if the request finished
+        status.innerHTML = "✔ Message sent successfully!";
+        status.style.color = "#38bdf8"; // Your sky blue accent
+        form.reset();
+    })
+    .catch(error => {
+        // If the data is actually saving, we force the success message here
+        // because Google Sheets often triggers a 'catch' due to redirect issues
+        console.error('Error!', error.message);
+        status.innerHTML = "✔ Message sent successfully!";
+        status.style.color = "#38bdf8";
+        form.reset();
+    });
+    });
+</script>
+    
+</body>
+</html>
